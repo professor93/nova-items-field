@@ -1,0 +1,30 @@
+{
+    "name": "teneraulg/nova-items-field",
+    "description": "A Laravel Nova items field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "laravel/nova": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Teneraulg\\ItemsField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Teneraulg\\ItemsField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
