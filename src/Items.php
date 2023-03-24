@@ -1,6 +1,6 @@
 <?php
 
-namespace Teneraulg\ItemsField;
+namespace Uzbek\ItemsField;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\ValidationException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Teneraulg\ItemsField;
+namespace Uzbek\ItemsField;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
